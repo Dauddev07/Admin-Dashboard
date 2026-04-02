@@ -36,18 +36,8 @@ Authentication is **mock only** (credentials live in the app; session is stored 
 | Admin  | `alex.morgan@acme.io` | `demo`   |
 | User   | `demo@acme.io`        | `demo`   |
 
-## Deploy on Vercel
-
-1. Push the repo to GitHub (or connect your folder).
-2. Import the project in [Vercel](https://vercel.com); it will detect **Vite** and use `npm run build` with output **`dist`**.
-3. `vercel.json` includes SPA rewrites so deep links (e.g. `/users`) and refresh work in production.
-
-You can also deploy from the CLI:
-
-```bash
-npm i -g vercel
-vercel
-```
+## Live At:
+https://admin-dashboard-app-ten-tau.vercel.app/login
 
 ## License
 
